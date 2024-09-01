@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #6c4f4f;
+    color: #fff;
+    padding: 0px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin: 1;
+  padding-left: 0;
+  flex-grow:1;
+}
+nav h1 {
+    padding-left: 1px; /* Adjust this value to move the heading more to the left */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Space between links */
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+   background: url('bg2.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    background: #8b4513;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.products {
+    padding: 200px 0;
+    background-image: url('bg.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover; /* Ensures the background image covers the entire section */
+    
+    
+}
+
+
+.products .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.products h2 {
+    color: white; /* Changes the text color to white */
+}
+
+.product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+}
+
+.product-card .btn {
+    background: #6c4f4f;
+}
+
+.about {
+   background: url('bg1.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+}
+.about {
+    padding: 150px 0;
+    text-align: center; /* Center align text */
+}
+
+.about .container {
+    width: 80%;
+    margin: 0 auto; /* Center the container */
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.contact{
+  padding:50px 0;
+}
+footer {
+    background: #6c4f4f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
